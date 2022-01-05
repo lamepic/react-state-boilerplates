@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 10rem;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.decrease {
+  background-color: tomato;
+}
+
+.increase {
+  background-color: green;
+}
+
+p {
+  font-weight: 600;
+}
